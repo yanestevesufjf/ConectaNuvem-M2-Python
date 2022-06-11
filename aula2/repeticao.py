@@ -10,13 +10,13 @@ while True:
 
 
 
-lista = [ 1, 2, 3, 4, 5 ]
+# lista = [ 1, 2, 3, 4, 5 ]
 
-for item in lista:
-    if item % 2 == 0:
-        print('{0} - Número par'.format(item))
-        continue
-    print('{0} - Número ímpar'.format(item))
+# for item in lista:
+#     if item % 2 == 0:
+#         print('{0} - Número par'.format(item))
+#         continue
+#     print('{0} - Número ímpar'.format(item))
     
 
 
