@@ -29,7 +29,7 @@ def processaArquivo():
 processaArquivo()
 
 while True:
-    aluno = input("""Informe um aluno para buscar a nota:\n
+    aluno = input("""\n\nInforme um aluno para buscar a nota:\n
 [sair] -> para encerrar a execução do programa
 [cls] -> para limpar o console
 [listar] -> para mostrar lista dos alunos\n\n""").lower()
@@ -41,6 +41,7 @@ while True:
         continue
     elif aluno == 'listar':
         print(alunos)
+        
         continue
 
     try:
@@ -49,6 +50,6 @@ while True:
         print('Aluno não existe')
         continue
 
-    print(f'A nota do aluno {alunos[indexAluno]} foi {notas[indexAluno]}')
+    print(f'A nota do aluno {alunos[indexAluno]} foi {notas[indexAluno]}\n\n')
 
 

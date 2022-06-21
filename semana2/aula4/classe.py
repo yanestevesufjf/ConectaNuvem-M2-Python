@@ -4,5 +4,6 @@ class Cachorro:
         self.nome = nome
 
 c1 = Cachorro()
+
 print(c1)
 print(c1.nome)
